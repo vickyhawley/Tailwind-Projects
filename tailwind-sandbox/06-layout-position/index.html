@@ -9,24 +9,60 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="relative w-1/2 h-12 bg-red-200">
+      <p>Parent Element
+      </p>
+      <div class="absolute bottom-0 right-0 bg-red-500">
+        <p>Absolute child</p>
+      </div>
+    </div>
 
     <!-- Top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Top right corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Bottom left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Bottom right corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Span top edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 h-16 top-0 bg-yellow-300"></div>
+    </div>
 
     <!-- Span left edge -->
 
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 left w-16 bg-yellow-300"></div>
+    </div>
+
     <!-- Span right edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 right w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Span bottom edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Display Classes -->
+    <div>
+      Lorem ipsum dolor <span class="inline font-bold">This is inline</span> sit amet consectetur adipisicing elit. <span class="inline-block font-bold">this is inline block</span>Quo repellat hic cupiditate officiis, <span class="block font-bold">This is block</span>
+      aut enim voluptatum recusandae beatae sed numquam accusamus ducimus aspernatur iure fuga! Autem atque vero nemo incidunt nobis provident quidem rerum officia asperiores dignissimos porro at, <span class="hidden font-bold">This is hidden</span>minima vel, quia cupiditate voluptatibus natus consequatur ullam dolorem perspiciatis fugiat nesciunt. Libero expedita consequatur impedit eum provident in similique eaque?
+    </div>
 
     <!-- Z-Index -->
 
