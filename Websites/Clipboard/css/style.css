@@ -678,10 +678,6 @@ h3 {
   width: 100%;
 }
 
-.w-3 {
-  width: 0.75rem;
-}
-
 .w-32 {
   width: 8rem;
 }
@@ -867,6 +863,10 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg) brightness(101%) contrast(94%);
 }
 
 .hover\:text-cyan-500:hover {
